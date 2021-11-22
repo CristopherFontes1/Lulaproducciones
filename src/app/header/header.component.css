@@ -1,0 +1,35 @@
+ * {
+     background-color: white;
+    display: flex;
+    
+ }
+
+
+
+
+.nav {
+    font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.6875rem;
+    letter-spacing: 0.18em;
+    word-spacing: 0em;
+    line-height: 2em;
+    text-transform: none;
+    font-weight: normal;
+    
+    
+}
+
+
+.nav-link  {
+    text-decoration: none;
+    color: black;
+    font-size: 0.6875rem;
+
+
+}
+
+.Logo_lulaproducciones {
+    text-decoration: none;
+    color: black;
+    font-size: 0.6875rem;
+}
