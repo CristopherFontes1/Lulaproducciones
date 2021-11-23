@@ -1,0 +1,127 @@
+/* ----- ----- MAIN ----- ----- */
+.main {
+	background: url();
+	background-repeat: repeat;
+}
+
+.main .acerca-de .contenedor {
+	overflow: visible;
+	position: relative;
+}
+
+.main .acerca-de .foto{
+	width: 80%;
+	position: absolute;
+	left: 0;
+	top:-50px;
+	z-index: 0;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+}
+
+.main .acerca-de .foto img {
+	width: 100%;
+	vertical-align:top;
+}
+
+.main .acerca-de article {
+	background: #fff;
+	padding: 40px;
+	width: 50%;
+	position: relative;
+	float: right;
+	/*top: 30px;*/
+	top: 500px; /*Con Parallax*/
+	z-index: 1;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.35);
+}
+
+.main .acerca-de article h3 {
+	font-size: 50px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.main .acerca-de article p {
+	line-height: 28px;
+	margin-bottom: 15px;
+
+}
+
+.main .galeria {
+	overflow: hidden;
+}
+
+.main .galeria .foto {
+	width: 25%;
+	float: left;
+}
+
+.main .galeria .foto img {
+	vertical-align: top;
+	width: 100%;
+	opacity: .7;
+}
+
+.main .galeria .foto img:hover {
+	opacity: 1;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.main .ubicacion {
+	background: #fff;
+	padding: 60px 0;
+}
+
+.main .ubicacion .titulo {
+	text-align: center;
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.main .ubicacion .direccion {
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+.main .ubicacion .horarios {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+.main .ubicacion .direccion .calle {
+	margin-bottom: 15px;
+}
+
+.main .ubicacion .horarios {
+	overflow: hidden;
+}
+
+.main .ubicacion .horarios h4 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.main .ubicacion .horarios .entre-semana,
+.main .ubicacion .horarios .fin-semana {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.main .mapa {
+	width: 100%;
+	overflow: hidden;
+}
+
+.main .mapa iframe {
+	width: 100%;
+	max-height: 600px;
+}
