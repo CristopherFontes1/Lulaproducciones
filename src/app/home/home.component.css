@@ -49,10 +49,14 @@
 
 }
 
-.carousel-inner .img-fluid{
-	width:100%;
-	height:100%;
-  }
+.carousel-item {
+	height: 32rem;
+	background: #777;
+	position: relative;
+
+}
+
+
 
 .main .ubicacion {
 	background: #fff;
@@ -74,7 +78,6 @@
 }
 
 .main .ubicacion .horarios {
-	width: 50%;
 	float: right;
 	text-align: right;
 }
