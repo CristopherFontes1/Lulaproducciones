@@ -49,18 +49,9 @@
 
 }
 
-.carousel-item {
-	height: 32rem;
-	background: #777;
-	position: relative;
-
-}
-
-
-
 .main .ubicacion {
 	background: #fff;
-	padding: 60px 0;
+	padding: 60px 	0;
 }
 
 .main .ubicacion .titulo {
